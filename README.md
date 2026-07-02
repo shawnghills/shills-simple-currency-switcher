@@ -183,39 +183,9 @@ npm run make-pot
 | **Build** | Webpack 5 |
 | **i18n** | WordPress i18n + `.pot` |
 
-### Project Structure
 
-```
-shills-simple-currency-switcher/
-├── shills-simple-currency-switcher.php   # Main plugin entry
-├── readme.txt                            # WordPress.org format readme
-├── README.md                             # GitHub readme (this file)
-├── package.json                          # NPM config & build scripts
-├── webpack.config.js                     # Webpack configuration
-│
-├── includes/                             # PHP core classes
-│   ├── functions.php                     # Public helper functions
-│   ├── class-shscs-currency.php          # Currency data management
-│   ├── class-shscs-api.php               # Exchange rate API interface
-│   ├── class-shscs-rest.php              # REST API endpoints
-│   ├── class-shscs-admin.php             # Admin settings UI
-│   ├── class-shscs-assets.php            # Frontend asset loading
-│   ├── class-shscs-frontend.php          # Shortcode/Widget rendering
-│   ├── class-shscs-widget.php            # Widget registration
-│   ├── class-shscs-woo.php               # WooCommerce integration
-│   ├── class-shscs-multilingual.php      # Multilingual integration
-│   └── class-shscs-geo.php              # GeoIP detection
-│
-├── src/                                  # JavaScript source
-│   ├── admin/                            # Admin dashboard
-│   ├── frontend/                         # Frontend switcher
-│   ├── multilingual/                     # Multilingual bridge
-│   └── shared/                           # Shared modules
-│
-├── assets/dist/                          # Webpack build output
-├── languages/                            # Translation files
-└── node_modules/                         # Frontend dependencies
-```
+
+
 
 ### Architecture
 

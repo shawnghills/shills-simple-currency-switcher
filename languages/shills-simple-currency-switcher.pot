@@ -1,0 +1,407 @@
+# Copyright (C) 2026 shawn.hills
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shills Simple Currency Switcher 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shills-simple-currency-switcher\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-07T13:39:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: shills-simple-currency-switcher\n"
+
+#. Plugin Name of the plugin
+#: shills-simple-currency-switcher.php
+msgid "Shills Simple Currency Switcher"
+msgstr ""
+
+#. Description of the plugin
+#: shills-simple-currency-switcher.php
+msgid "Simple and efficient currency switcher, supports multi-currency management, real-time exchange rate conversion, WooCommerce forced price switching, WPML/Polylang multilingual integration, front-end widgets"
+msgstr ""
+
+#. Author of the plugin
+#: shills-simple-currency-switcher.php
+msgid "shawn.hills"
+msgstr ""
+
+#: includes/class-shscs-admin.php:55
+#: includes/class-shscs-admin.php:56
+#: includes/class-shscs-widget.php:23
+msgid "Currency Switcher"
+msgstr ""
+
+#: includes/class-shscs-admin.php:294
+msgid "All caches cleared successfully!"
+msgstr ""
+
+#: includes/class-shscs-admin.php:302
+msgid "General"
+msgstr ""
+
+#: includes/class-shscs-admin.php:306
+msgid "Currencies"
+msgstr ""
+
+#: includes/class-shscs-admin.php:311
+msgid "Multilingual"
+msgstr ""
+
+#: includes/class-shscs-admin.php:345
+msgid "Base Currency"
+msgstr ""
+
+#: includes/class-shscs-admin.php:357
+msgid "API Source"
+msgstr ""
+
+#: includes/class-shscs-admin.php:363
+msgid "Key required"
+msgstr ""
+
+#: includes/class-shscs-admin.php:365
+msgid "Manual rates"
+msgstr ""
+
+#: includes/class-shscs-admin.php:367
+msgid "Free"
+msgstr ""
+
+#: includes/class-shscs-admin.php:377
+msgid "Auto Update"
+msgstr ""
+
+#: includes/class-shscs-admin.php:381
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-shscs-admin.php:383
+msgid "Hourly"
+msgstr ""
+
+#: includes/class-shscs-admin.php:385
+msgid "Daily"
+msgstr ""
+
+#: includes/class-shscs-admin.php:390
+msgid "Theme Mode"
+msgstr ""
+
+#: includes/class-shscs-admin.php:394
+msgid "Auto Detect"
+msgstr ""
+
+#: includes/class-shscs-admin.php:396
+msgid "Light"
+msgstr ""
+
+#: includes/class-shscs-admin.php:398
+msgid "Dark"
+msgstr ""
+
+#: includes/class-shscs-admin.php:400
+msgid "Custom"
+msgstr ""
+
+#: includes/class-shscs-admin.php:405
+msgid "Custom Color"
+msgstr ""
+
+#: includes/class-shscs-admin.php:420
+msgid "Save General Settings"
+msgstr ""
+
+#: includes/class-shscs-admin.php:436
+msgid "Code"
+msgstr ""
+
+#: includes/class-shscs-admin.php:437
+msgid "Symbol"
+msgstr ""
+
+#: includes/class-shscs-admin.php:438
+msgid "Rate"
+msgstr ""
+
+#: includes/class-shscs-admin.php:439
+msgid "Position"
+msgstr ""
+
+#: includes/class-shscs-admin.php:440
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-shscs-admin.php:441
+msgid "Actions"
+msgstr ""
+
+#: includes/class-shscs-admin.php:448
+msgid "No currencies configured. Click \"Add Currency\" to start."
+msgstr ""
+
+#: includes/class-shscs-admin.php:465
+msgid "— Select Currency —"
+msgstr ""
+
+#: includes/class-shscs-admin.php:481
+msgid "— Select Symbol —"
+msgstr ""
+
+#: includes/class-shscs-admin.php:492
+msgid "Custom Symbol"
+msgstr ""
+
+#: includes/class-shscs-admin.php:498
+msgid "Custom symbol"
+msgstr ""
+
+#: includes/class-shscs-admin.php:507
+msgid "Left"
+msgstr ""
+
+#: includes/class-shscs-admin.php:509
+msgid "Right"
+msgstr ""
+
+#: includes/class-shscs-admin.php:511
+msgid "Left + Space"
+msgstr ""
+
+#: includes/class-shscs-admin.php:514
+msgid "Right + Space"
+msgstr ""
+
+#: includes/class-shscs-admin.php:521
+#: includes/class-shscs-assets.php:290
+msgid "Delete"
+msgstr ""
+
+#: includes/class-shscs-admin.php:528
+msgid "Add Currency"
+msgstr ""
+
+#: includes/class-shscs-admin.php:542
+msgid "Save Currency Settings"
+msgstr ""
+
+#: includes/class-shscs-admin.php:544
+#: includes/class-shscs-assets.php:295
+msgid "Update Exchange Rates"
+msgstr ""
+
+#: includes/class-shscs-admin.php:558
+msgid "Plugin Status"
+msgstr ""
+
+#: includes/class-shscs-admin.php:571
+msgid "No multilingual plugin detected"
+msgstr ""
+
+#: includes/class-shscs-admin.php:576
+msgid "Sync Settings"
+msgstr ""
+
+#: includes/class-shscs-admin.php:579
+msgid "Auto-switch currency with language"
+msgstr ""
+
+#: includes/class-shscs-admin.php:583
+msgid "User Override"
+msgstr ""
+
+#: includes/class-shscs-admin.php:586
+msgid "Allow manual currency selection"
+msgstr ""
+
+#: includes/class-shscs-admin.php:590
+msgid "GeoIP Detection"
+msgstr ""
+
+#: includes/class-shscs-admin.php:593
+msgid "Detect location for initial currency"
+msgstr ""
+
+#: includes/class-shscs-admin.php:598
+msgid "Language-Currency Mapping"
+msgstr ""
+
+#: includes/class-shscs-admin.php:602
+msgid "Language"
+msgstr ""
+
+#: includes/class-shscs-admin.php:603
+msgid "Default Currency"
+msgstr ""
+
+#: includes/class-shscs-admin.php:612
+msgid "— Select —"
+msgstr ""
+
+#: includes/class-shscs-admin.php:629
+msgid "Tip"
+msgstr ""
+
+#: includes/class-shscs-admin.php:630
+msgid "When \"Auto-sync\" is enabled, switching languages will automatically switch the currency."
+msgstr ""
+
+#: includes/class-shscs-admin.php:632
+msgid "Manually selected currencies will be respected (for 30 days)"
+msgstr ""
+
+#: includes/class-shscs-admin.php:633
+msgid "To reset user selection, clear browser cookies or wait 30 days"
+msgstr ""
+
+#: includes/class-shscs-admin.php:644
+msgid "Save Multilingual Settings"
+msgstr ""
+
+#: includes/class-shscs-admin.php:662
+msgid "Are you sure you want to clear all caches?"
+msgstr ""
+
+#: includes/class-shscs-admin.php:663
+msgid "Clear All Caches"
+msgstr ""
+
+#: includes/class-shscs-admin.php:677
+#: includes/class-shscs-api.php:69
+msgid "None - Use Manual Rates"
+msgstr ""
+
+#: includes/class-shscs-api.php:94
+msgid "Invalid API provider"
+msgstr ""
+
+#: includes/class-shscs-api.php:158
+#, php-format
+msgid "API key required for %s"
+msgstr ""
+
+#: includes/class-shscs-api.php:182
+#, php-format
+msgid "API error: %d"
+msgstr ""
+
+#: includes/class-shscs-api.php:195
+msgid "Invalid JSON"
+msgstr ""
+
+#: includes/class-shscs-api.php:242
+msgid "No manual rates configured"
+msgstr ""
+
+#: includes/class-shscs-assets.php:291
+msgid "Delete this currency?"
+msgstr ""
+
+#: includes/class-shscs-assets.php:292
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-shscs-assets.php:293
+msgid "Failed to save settings."
+msgstr ""
+
+#: includes/class-shscs-assets.php:294
+msgid "Add"
+msgstr ""
+
+#: includes/class-shscs-assets.php:296
+msgid "Updating Exchange Rates..."
+msgstr ""
+
+#: includes/class-shscs-assets.php:297
+msgid "Exchange rates updated successfully."
+msgstr ""
+
+#: includes/class-shscs-currency.php:123
+msgid "Currency code required"
+msgstr ""
+
+#: includes/class-shscs-currency.php:134
+msgid "Currency exists"
+msgstr ""
+
+#: includes/class-shscs-currency.php:205
+#: includes/class-shscs-currency.php:237
+msgid "Currency not found"
+msgstr ""
+
+#: includes/class-shscs-currency.php:222
+msgid "Cannot delete base currency"
+msgstr ""
+
+#: includes/class-shscs-frontend.php:88
+msgid "Select Currency"
+msgstr ""
+
+#: includes/class-shscs-rest.php:454
+#, php-format
+msgid "Currency %s is disabled"
+msgstr ""
+
+#: includes/class-shscs-rest.php:467
+#, php-format
+msgid "Invalid currency: %s. Available currencies: %s"
+msgstr ""
+
+#: includes/class-shscs-rest.php:510
+#, php-format
+msgid "Switched to %s"
+msgstr ""
+
+#: includes/class-shscs-rest.php:614
+msgid "Auto-sync is disabled"
+msgstr ""
+
+#: includes/class-shscs-rest.php:627
+msgid "No mapping"
+msgstr ""
+
+#: includes/class-shscs-rest.php:646
+msgid "Invalid mapped currency"
+msgstr ""
+
+#: includes/class-shscs-widget.php:24
+msgid "Display currency switcher in sidebar"
+msgstr ""
+
+#: includes/class-shscs-widget.php:80
+msgid "Title:"
+msgstr ""
+
+#: includes/class-shscs-widget.php:97
+msgid "Display Style:"
+msgstr ""
+
+#: includes/class-shscs-widget.php:112
+msgid "Dropdown"
+msgstr ""
+
+#: includes/class-shscs-widget.php:118
+msgid "Buttons"
+msgstr ""
+
+#: includes/class-shscs-woo.php:252
+#, php-format
+msgid "Prices shown in %1$s. Order will be processed in %2$s."
+msgstr ""
+
+#: includes/class-shscs-woo.php:390
+msgid "Currency Information"
+msgstr ""
+
+#: includes/class-shscs-woo.php:395
+msgid "Order Currency:"
+msgstr ""
+
+#: includes/class-shscs-woo.php:402
+#, php-format
+msgid "Rate: %f"
+msgstr ""
